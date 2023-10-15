@@ -221,7 +221,7 @@ a {
     font-weight: bold;
     font-size: 18px;
     padding: 10px 25px;
-    background: rgb(113, 5, 156);
+    background: #000;
     transform: translate(-50%, -50%);
   }
   .popup{
@@ -383,7 +383,7 @@ a {
   body {
     margin: 0;
     padding: 0;
-    background-color: #b892ff;
+    background-color: #888888;
     color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
@@ -424,15 +424,16 @@ a {
     font-size: 20px;
     margin-bottom: 30px;
     margin-top: 30px;
+    color: #fff;
   }
   .tile {
     font-weight: bold;
     font-size: 18px;
     width: 100%;
-    background-color: #7c47bc;
+    background-color: #fff;
     color: rgb(0, 0, 0);
     margin: 7px;
-    border-radius: 15px;
+    border-radius: 50px;
     box-shadow: 0px 21px 76px 10px rgba(0, 0, 0, 0.39);
     -webkit-box-shadow: 0px 21px 76px 10px rgba(0, 0, 0, 0.39);
     -moz-box-shadow: 0px 21px 76px 10px rgba(0, 0, 0, 0.39);
@@ -455,6 +456,9 @@ a {
     margin-left: 8px;
     margin-top: 7px;
   }
+  .tile p{
+    margin: auto;
+  }
   .image__container {
     height: 96px;
     width: 96px;
@@ -463,6 +467,7 @@ a {
     box-shadow: 1px 13px 71px 1px rgba(0, 0, 0, 0.39);
       -webkit-box-shadow: 1px 13px 71px 1px rgba(0, 0, 0, 0.39);
       -moz-box-shadow: 1px 13px 71px 1px rgba(0, 0, 0, 0.39);
+      border-radius: 50%;
   }
   @media screen and (min-width: 768px) {
     .image__container {
